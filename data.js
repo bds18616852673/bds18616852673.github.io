@@ -70,17 +70,17 @@ const I18N = {
     "nav.publications": "论文",
     "nav.awards": "荣誉",
 
-    "hero.eyebrow": "大模型 · 通用/医疗 AI · 强化学习",
+    "hero.eyebrow": "大模型 · 通用场景/医疗 AI · 强化学习",
     "hero.nameLine1": "毕东生",
     "hero.nameLine2": "Dongsheng Bi, 博士",
-    "hero.role": "腾讯-大模型高级算法工程师 · 后训练 (SFT/RL/RM) 与通用/垂类医疗 AI",
-    "hero.lede": "我专注于让大模型理解通用场景/垂类医学——从评测基准构建、高质量数据生产，到千卡集群上的SFT与RL两阶段强化学习训练。主导训练的MoE大模型在 MedAIBench 与 HealthBench 双榜单登顶第一，超越万亿参数系统。",
+    "hero.role": "腾讯-大模型高级算法工程师 · 后训练 (SFT/RL/RM) 与通用场景/垂类医疗 AI",
+    "hero.lede": "我专注于让大模型理解通用场景场景/垂类医学——从评测基准构建、高质量数据生产，到千卡集群上的SFT监督微调与RL两阶段强化学习训练。主导训练的MoE大模型在 MedAIBench 与 HealthBench 双榜单登顶第一，超越万亿参数系统。",
     "hero.ctaPrimary": "查看我的工作",
     "hero.ctaResume": "下载简历",
     "hero.ctaContact": "联系我",
 
     "about.title": "个人简介",
-    "about.lede": "复旦大学博士，国家公派加拿大阿尔伯塔大学访问学者。我深耕大模型与通用/垂类医疗健康的交叉领域，掌握从评测基准、数据工程到大规模训练、RL 后训练与生产部署的全研发链路。累计发表 8 篇 SCI 论文（5 篇第一作者）、7 篇会议论文，申请 10 项专利，并带领 14 名复旦硕博实习生组成的研发团队。",
+    "about.lede": "复旦大学博士，国家公派加拿大阿尔伯塔大学访问学者。我深耕大模型与通用场景/垂类医疗健康的交叉领域，掌握从评测基准、数据工程到大规模训练、RL 后训练与生产部署的全研发链路。累计发表 8 篇 SCI 论文（5 篇第一作者）、7 篇会议论文，申请 10 项专利，并带领 14 名复旦硕博实习生组成的研发团队。",
 
     "research.title": "我的核心方向",
     "research.sub": "贯穿我研究与工程实践的四条主线。",
@@ -102,7 +102,7 @@ const I18N = {
     "awards.sub": "节选自 72 余项国家级 / 省级荣誉称号与竞赛奖项。",
 
     "footer.cta": "期待与前沿 AI 领域最有野心的问题相遇。",
-    "footer.name": "共同构建通用/垂类医疗 AI 的未来。",
+    "footer.name": "共同构建通用场景/垂类医疗 AI 的未来。",
     "footer.fine": "© 2026 毕东生 (Dongsheng Bi) · 上海。",
 
     "ui.review": "在审",
@@ -198,9 +198,9 @@ const FOCUS = [
 /* ---- Experience timeline ---- */
 const EXPERIENCE = [
   {
-    period: { en: "2025 — Present", zh: "2025 — 至今" },
+    period: { en: "2025.04 — Present", zh: "2025.04 — 至今" },
     org: { en: "Tencent · Yuanbao", zh: "腾讯 · 元宝" },
-    role: { en: "LLM Post-Training Algorithm Engineer (RM / RL)", zh: "大模型后训练算法工程师（RM / RL）" },
+    role: { en: "Senior LLM Post-Training Algorithm Engineer (SFT/RM/RL)", zh: "资深大模型算法工程师（SFT/RM/RL）" },
     points: {
       en: [
         "Own reward-model (RM) and RL post-training for Yuanbao's rich-media (text + image) scenarios — building the reward model and the full reinforcement-learning pipeline for multimodal generation.",
@@ -210,11 +210,10 @@ const EXPERIENCE = [
         "Designed a per-query 19-domain rubric framework (classify query → preset category rubrics → dynamic prompt injection), and raised overall image-text scoring to 91%."
       ],
       zh: [
-        "负责元宝「图文并茂」场景的奖励模型 RM 与 RL 后训练算法研发，搭建多模态生成的强化学习全链路。",
-        "从 0 搭建评测体系与打分标准，SFT 训练微调基于 rubrics 要点打分的奖励模型 RM，作为自动化裁判。",
-        "主导 VLM 视觉语言模型的强化学习 RL 与监督微调，支撑图文结合的生成与打分。",
-        "围绕文本打分、图片打分与图文整体打分的准确率优化：文本打分约 95%、图片打分 93%+，整体上线效果准确率达 90%+。",
-        "设计按 query 的 19 类 domain rubrics 框架（分类 → 预置品类要点 → 动态注入裁判提示词），将图文整体打分提升至 91%。"
+        "	从0-1搭建【文本、图片、图文整体端效】多维度打分RM评测体系与打分标准，",
+        "基于query的domain 领域构建rubrics要点打分框架（分类→预置领域打分要点→动态注入裁判提示词），将模型回答的图文整体打分提升至90%+，用于线上自动化打分裁判。",
+        "主导VLM视觉语言模型的监督微调SFT与强化学习RL，训练优化图文结合生成策略。",
+        "围绕【文本打分、图片打分与图文整体打分】三个方面优化准确率达到高可用水平：文本打分95%+、图片打分93%+，整体上线效果准确率达 90%+。"
       ]
     },
     tags: ["VLM / Multimodal", "Reward Model (RM)", "RL post-training", "Rubrics judge"]
@@ -490,5 +489,5 @@ const AWARDS = [
 const CONTACTS = [
   { label: "Email", value: "bb530587150@163.com", url: "mailto:bb530587150@163.com" },
   { label: "Phone", value: "+86 186 1685 2673", url: "tel:+8618616852673" },
-  { label: "Résumé", value: { en: "Download (.doc)", zh: "下载简历 (.doc)" }, url: "毕东生博士-大模型算法-简历V2.doc", download: true }
+  { label: "Résumé", value: { en: "Download (.pdf)", zh: "下载简历 (.pdf)" }, url: "毕东生博士-大模型算法-简历CV.pdf", download: true }
 ];
