@@ -220,7 +220,7 @@ const EXPERIENCE = [
     tags: ["VLM / Multimodal", "Reward Model (RM)", "RL post-training", "Rubrics judge"]
   },
   {
-    period: { en: "2024.03 — 2025", zh: "2024.03 — 2025" },
+    period: { en: "2024.03 — 2025.04", zh: "2024.03 — 2025.04" },
     org: { en: "Ant Group · Alipay", zh: "蚂蚁集团 · 支付宝事业部" },
     role: { en: "Senior LLM Algorithm Engineer", zh: "大模型高级算法工程师" },
     points: {
@@ -350,7 +350,7 @@ const PROJECTS = [
 /* ---- Publications ---- */
 const PUBS_LLM = [
   {
-    authors: "Qing He, Dongsheng Bi, Jianrong Lu, et al. (co-first authors)",
+    authors: "Dongsheng Bi*, et al.",
     title: "MLB: A Scenario-Driven Benchmark for Evaluating Large Language Models in Clinical Applications",
     venue: "KDD 2026 · 32nd ACM SIGKDD, Jeju Island, Korea",
     status: "accepted",
@@ -376,7 +376,7 @@ const PUBS_LLM = [
     authors: "Yue He, Dongsheng Bi, et al.",
     title: "MvEDR: Medical Dialogue Value-Enhanced Dual-stage Next Question Recommendation",
     venue: "ACM WWW 2026 (tracks)",
-    status: "review",
+    status: "accepted",
     first: false,
     links: []
   }
