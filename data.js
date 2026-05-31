@@ -13,17 +13,17 @@ const I18N = {
     "nav.publications": "Publications",
     "nav.awards": "Honors",
 
-    "hero.eyebrow": "LLM · Medical AI · Reinforcement Learning",
+    "hero.eyebrow": "LLM · General/Medical AI · SFT/RL/RM",
     "hero.nameLine1": "Dongsheng Bi",
     "hero.nameLine2": "毕东生, Ph.D.",
-    "hero.role": "Senior LLM Algorithm Engineer · Post-Training (RM / RL) & Medical AI",
-    "hero.lede": "I build large language models that reason about medicine — from benchmark design and high-quality data production to SFT and two-stage reinforcement learning on thousand-GPU clusters. My MoE model reached #1 on MedAIBench and HealthBench, surpassing trillion-parameter systems.",
+    "hero.role": "Tencent-Senior LLM Algorithm Engineer · Post-Training (RM / RL) & Medical AI",
+    "hero.lede": "I build large language models that reason about general scenarios/medical domains — from benchmark design and high-quality data production to SFT and RL two-stage reinforcement learning on thousand-GPU clusters. My MoE model reached #1 on MedAIBench and HealthBench, surpassing trillion-parameter systems.",
     "hero.ctaPrimary": "Explore my work",
     "hero.ctaResume": "Download résumé",
     "hero.ctaContact": "Get in touch",
 
     "about.title": "Profile",
-    "about.lede": "Ph.D. from Fudan University and former CSC visiting scholar at the University of Alberta. I work at the intersection of large language models and healthcare — owning the full research loop from evaluation benchmarks and data engineering to large-scale training, RL post-training, and production deployment. Along the way I have published 8 SCI papers (5 as first author), 7 conference papers, and filed 10 patents, and I mentor a team of 14 graduate research interns from Fudan.",
+    "about.lede": "Ph.D. from Fudan University and former CSC visiting scholar at the University of Alberta. I work at the intersection of LLM/VLM models and general/ medical domains — owning the full research loop from evaluation benchmarks and data engineering to large-scale training, RL post-training, and production deployment. Along the way I have published 8 SCI papers (5 as first author), 7 conference papers, and filed 10 patents, and I mentor a team of 14 graduate research interns from Fudan.",
 
     "research.title": "What I focus on",
     "research.sub": "Four threads that define my research and engineering practice.",
@@ -45,8 +45,8 @@ const I18N = {
     "awards.sub": "A selection from 72+ national and provincial honors and competition awards.",
 
     "footer.cta": "Open to ambitious problems in frontier AI.",
-    "footer.name": "Let’s build the future of medical AI.",
-    "footer.fine": "© 2026 Dongsheng Bi (毕东生). Built with care — Shanghai.",
+    "footer.name": "Let’s build the future of general/ medical AI.",
+    "footer.fine": "© 2026 Dongsheng Bi (毕东生) · Shanghai.",
 
     "ui.review": "Under review",
     "ui.accepted": "Accepted",
@@ -70,17 +70,17 @@ const I18N = {
     "nav.publications": "论文",
     "nav.awards": "荣誉",
 
-    "hero.eyebrow": "大模型 · 医疗 AI · 强化学习",
+    "hero.eyebrow": "大模型 · 通用/医疗 AI · 强化学习",
     "hero.nameLine1": "毕东生",
     "hero.nameLine2": "Dongsheng Bi, 博士",
-    "hero.role": "大模型高级算法工程师 · 后训练 (RM / RL) 与医疗 AI",
-    "hero.lede": "我专注于让大语言模型理解医学——从评测基准构建、高质量数据生产，到千卡集群上的 SFT 与两阶段强化学习训练。我主导训练的 MoE 大模型在 MedAIBench 与 HealthBench 双榜单登顶第一，超越万亿参数系统。",
+    "hero.role": "腾讯-大模型高级算法工程师 · 后训练 (SFT/RL/RM) 与通用/垂类医疗 AI",
+    "hero.lede": "我专注于让大模型理解通用场景/垂类医学——从评测基准构建、高质量数据生产，到千卡集群上的SFT与RL两阶段强化学习训练。主导训练的MoE大模型在 MedAIBench 与 HealthBench 双榜单登顶第一，超越万亿参数系统。",
     "hero.ctaPrimary": "查看我的工作",
     "hero.ctaResume": "下载简历",
     "hero.ctaContact": "联系我",
 
     "about.title": "个人简介",
-    "about.lede": "复旦大学博士，国家公派加拿大阿尔伯塔大学访问学者。我深耕大语言模型与医疗健康的交叉领域，掌握从评测基准、数据工程到大规模训练、RL 后训练与生产部署的全研发链路。累计发表 8 篇 SCI 论文（5 篇第一作者）、7 篇会议论文，申请 10 项专利，并带领 14 名复旦硕博实习生组成的研发团队。",
+    "about.lede": "复旦大学博士，国家公派加拿大阿尔伯塔大学访问学者。我深耕大模型与通用/垂类医疗健康的交叉领域，掌握从评测基准、数据工程到大规模训练、RL 后训练与生产部署的全研发链路。累计发表 8 篇 SCI 论文（5 篇第一作者）、7 篇会议论文，申请 10 项专利，并带领 14 名复旦硕博实习生组成的研发团队。",
 
     "research.title": "我的核心方向",
     "research.sub": "贯穿我研究与工程实践的四条主线。",
@@ -102,8 +102,8 @@ const I18N = {
     "awards.sub": "节选自 72 余项国家级 / 省级荣誉称号与竞赛奖项。",
 
     "footer.cta": "期待与前沿 AI 领域最有野心的问题相遇。",
-    "footer.name": "共同构建医疗 AI 的未来。",
-    "footer.fine": "© 2026 毕东生 (Dongsheng Bi)。用心打造 · 上海。",
+    "footer.name": "共同构建通用/垂类医疗 AI 的未来。",
+    "footer.fine": "© 2026 毕东生 (Dongsheng Bi) · 上海。",
 
     "ui.review": "在审",
     "ui.accepted": "已录用",
@@ -139,7 +139,7 @@ const PILLARS = [
   },
   {
     en: { k: "Applied LLM systems", v: "Intent understanding & recommendation live in Alipay AI Health, 98%+ accuracy." },
-    zh: { k: "落地应用", v: "支付宝 AI 健康管家意图理解与推荐，准确率 98%+。" }
+    zh: { k: "落地应用", v: "蚂蚁集团AI阿福意图理解与推荐，准确率 98%+。" }
   },
   {
     en: { k: "Leadership", v: "Mentor 14 Fudan graduate research interns across LLM projects." },
@@ -207,14 +207,14 @@ const EXPERIENCE = [
         "Built the evaluation system and scoring standards from scratch, and SFT-fine-tuned a rubric-based scoring reward model (RM) used as the automated judge.",
         "Drove RL and supervised fine-tuning of the vision-language model (VLM) that powers image-grounded responses.",
         "Optimized accuracy across text scoring, image scoring, and overall text-image scoring — text scoring ~95%, image scoring 93%+, with online accuracy reaching 90%+.",
-        "Designed a per-query 19-domain rubric framework (classify query → preset category rubrics → dynamic prompt injection), lifting text scoring to 83.1% (+6.1%) and image scoring to 68.4% (+1.7%), and shipped a rule-fitting assist Action that raised overall image-text scoring to 91%."
+        "Designed a per-query 19-domain rubric framework (classify query → preset category rubrics → dynamic prompt injection), and raised overall image-text scoring to 91%."
       ],
       zh: [
         "负责元宝「图文并茂」场景的奖励模型 RM 与 RL 后训练算法研发，搭建多模态生成的强化学习全链路。",
         "从 0 搭建评测体系与打分标准，SFT 训练微调基于 rubrics 要点打分的奖励模型 RM，作为自动化裁判。",
         "主导 VLM 视觉语言模型的强化学习 RL 与监督微调，支撑图文结合的生成与打分。",
         "围绕文本打分、图片打分与图文整体打分的准确率优化：文本打分约 95%、图片打分 93%+，整体上线效果准确率达 90%+。",
-        "设计按 query 的 19 类 domain rubrics 框架（分类 → 预置品类要点 → 动态注入裁判提示词），文本打分提升至 83.1%（+6.1%）、图片打分 68.4%（+1.7%），并上线「规则拟合辅助」Action，将图文整体打分提升至 91%。"
+        "设计按 query 的 19 类 domain rubrics 框架（分类 → 预置品类要点 → 动态注入裁判提示词），将图文整体打分提升至 91%。"
       ]
     },
     tags: ["VLM / Multimodal", "Reward Model (RM)", "RL post-training", "Rubrics judge"]
@@ -222,11 +222,11 @@ const EXPERIENCE = [
   {
     period: { en: "2024.03 — 2025.04", zh: "2024.03 — 2025.04" },
     org: { en: "Ant Group · Alipay", zh: "蚂蚁集团 · 支付宝事业部" },
-    role: { en: "Senior LLM Algorithm Engineer", zh: "大模型高级算法工程师" },
+    role: { en: "Tencent Senior LLM Algorithm Engineer", zh: "腾讯-大模型高级算法工程师" },
     points: {
       en: [
         "Led MedAIBench (22 eval sets, 20+ models) and the training/evaluation/open-sourcing of the Ling-flash (100B-A6B) MoE model on a 1000-GPU H200 cluster — reaching #1 on MedAIBench and HealthBench, beating trillion-param Kimi-K2 and Baichuan-M2.",
-        "Built the user-intent understanding module for Alipay AI Health: 60 service intents, 98%+ accuracy, 50%+ online CTR, extended to the Anzhener app.",
+        "Built the user-intent understanding module for Ant Group AI Health: 60 service intents, 98%+ accuracy, 50%+ online CTR, extended to the Anzhener app.",
         "Lifted related-question PV-CTR from 3.9% to a stable 10%+ via LLM generation + FAQ vector recall + slot-filling recall.",
         "Authored 3 ACM conference papers and 2 patents on clinical benchmarks, tool selection RL, and next-question recommendation."
       ],
@@ -246,7 +246,7 @@ const EXPERIENCE = [
     points: {
       en: [
         "Led R&D across multimodal LLMs + agents + RPA: CogAgent, Qwen-VL, GPT-4V, Gemini, Baichuan, with LoRA & full fine-tuning.",
-        "Delivered a vertical-domain LLM v2.0 with a +13% average gain over Baichuan2-13B and ERNIE; won a Silver Award at the Huawei Cup AI Innovation Competition and 1 invention patent.",
+        "Delivered a LLM v2.0 with a +13% average gain over Baichuan2-13B and ERNIE; won a Silver Award at the Huawei Cup AI Innovation Competition and 1 invention patent.",
         "Built a digital-employee platform (LangChain, LangFlow, AutoGen, RAG) cutting task time from 2h to 10min — a 12× efficiency gain.",
         "Recruited and managed a 14-person team of Fudan graduate research interns; authored 2 bids, 4 patent applications, 1 software copyright."
       ],
