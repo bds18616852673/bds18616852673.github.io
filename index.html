@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dongsheng Bi · 毕东生 — LLM & Medical AI Researcher</title>
+  <meta name="description" content="Dongsheng Bi (毕东生), Ph.D. — Senior LLM Algorithm Engineer at Ant Group. Trillion-scale MoE training, medical AI benchmarks, RL post-training, and clinical LLM evaluation." />
+  <meta name="author" content="Dongsheng Bi 毕东生" />
+  <meta property="og:title" content="Dongsheng Bi · 毕东生 — LLM & Medical AI Researcher" />
+  <meta property="og:description" content="Ph.D. from Fudan University · Senior LLM Algorithm Engineer at Ant Group · Medical AI, MoE training, RL, and LLM evaluation." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..600&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+SC:wght@300;500;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' font-family='serif'%3EB%3C/text%3E%3C/svg%3E" />
+</head>
+<body data-lang="en">
+  <div class="grain" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">
+      <span class="nav__mark">毕</span>
+      <span class="nav__name" data-i18n="nav.brand"></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about"></a>
+      <a href="#research" data-i18n="nav.research"></a>
+      <a href="#experience" data-i18n="nav.experience"></a>
+      <a href="#projects" data-i18n="nav.projects"></a>
+      <a href="#publications" data-i18n="nav.publications"></a>
+      <a href="#awards" data-i18n="nav.awards"></a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-toggle__opt" data-lang-opt="en">EN</span>
+        <span class="lang-toggle__sep">/</span>
+        <span class="lang-toggle__opt" data-lang-opt="zh">中</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow reveal" data-i18n="hero.eyebrow"></p>
+        <h1 class="hero__name reveal">
+          <span class="hero__name-en" data-i18n="hero.nameLine1"></span>
+          <span class="hero__name-zh" data-i18n="hero.nameLine2"></span>
+        </h1>
+        <p class="hero__role reveal" data-i18n="hero.role"></p>
+        <p class="hero__lede reveal" data-i18n="hero.lede"></p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--primary" href="#research" data-i18n="hero.ctaPrimary"></a>
+          <a class="btn btn--ghost" href="毕东生博士-大模型算法-简历V2.doc" download data-i18n="hero.ctaResume"></a>
+          <a class="btn btn--ghost" href="mailto:bb530587150@163.com" data-i18n="hero.ctaContact"></a>
+        </div>
+      </div>
+      <div class="hero__metrics reveal" id="heroMetrics"></div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <span class="section__index">01</span>
+        <h2 class="section__title" data-i18n="about.title"></h2>
+      </div>
+      <div class="about">
+        <p class="about__lede" data-i18n="about.lede"></p>
+        <div class="about__pillars" id="aboutPillars"></div>
+      </div>
+    </section>
+
+    <!-- RESEARCH / FOCUS -->
+    <section class="section" id="research">
+      <div class="section__head">
+        <span class="section__index">02</span>
+        <h2 class="section__title" data-i18n="research.title"></h2>
+      </div>
+      <p class="section__sub" data-i18n="research.sub"></p>
+      <div class="focus" id="focusGrid"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section__head">
+        <span class="section__index">03</span>
+        <h2 class="section__title" data-i18n="experience.title"></h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section__head">
+        <span class="section__index">04</span>
+        <h2 class="section__title" data-i18n="projects.title"></h2>
+      </div>
+      <p class="section__sub" data-i18n="projects.sub"></p>
+      <div class="projects" id="projectGrid"></div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="section__head">
+        <span class="section__index">05</span>
+        <h2 class="section__title" data-i18n="pubs.title"></h2>
+      </div>
+      <p class="section__sub" data-i18n="pubs.sub"></p>
+
+      <div class="pubgroup">
+        <h3 class="pubgroup__title" data-i18n="pubs.llmTitle"></h3>
+        <ol class="publist" id="pubLLM"></ol>
+      </div>
+
+      <div class="pubgroup">
+        <h3 class="pubgroup__title" data-i18n="pubs.sciTitle"></h3>
+        <ol class="publist" id="pubSCI"></ol>
+      </div>
+
+      <div class="pubgroup">
+        <h3 class="pubgroup__title" data-i18n="pubs.patentTitle"></h3>
+        <ol class="publist publist--plain" id="pubPatents"></ol>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section__head">
+        <span class="section__index">06</span>
+        <h2 class="section__title" data-i18n="edu.title"></h2>
+      </div>
+      <div class="edu" id="eduGrid"></div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="section" id="awards">
+      <div class="section__head">
+        <span class="section__index">07</span>
+        <h2 class="section__title" data-i18n="awards.title"></h2>
+      </div>
+      <p class="section__sub" data-i18n="awards.sub"></p>
+      <ul class="awards" id="awardList"></ul>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <p class="footer__cta" data-i18n="footer.cta"></p>
+      <h2 class="footer__name" data-i18n="footer.name"></h2>
+      <div class="footer__links" id="footerLinks"></div>
+      <p class="footer__fine" data-i18n="footer.fine"></p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
